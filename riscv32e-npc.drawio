@@ -1,12 +1,53 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="YqT462kirie1QfVn1x6u">
-    <mxGraphModel dx="1376" dy="767" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="459" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="83uHd_Xzdh_Pzt49kiPY-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="83uHd_Xzdh_Pzt49kiPY-2" target="83uHd_Xzdh_Pzt49kiPY-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490.57142857142844" y="280" as="sourcePoint" />
+            <mxPoint x="440.57142857142844" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83uHd_Xzdh_Pzt49kiPY-13" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="83uHd_Xzdh_Pzt49kiPY-11">
+          <mxGeometry x="0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="83uHd_Xzdh_Pzt49kiPY-1" value="RegFile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="380" width="100" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="83uHd_Xzdh_Pzt49kiPY-2" value="MUX" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="83uHd_Xzdh_Pzt49kiPY-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="83uHd_Xzdh_Pzt49kiPY-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="340" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="395" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="83uHd_Xzdh_Pzt49kiPY-5" value="src1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="83uHd_Xzdh_Pzt49kiPY-4">
+          <mxGeometry x="-0.2687" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="ALUAsrc" placeholders="1" name="Variable" id="83uHd_Xzdh_Pzt49kiPY-8">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontStyle=4" vertex="1" parent="1">
+            <mxGeometry x="385" y="270" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="00" placeholders="1" name="Variable" id="83uHd_Xzdh_Pzt49kiPY-14">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+            <mxGeometry x="409" y="390" width="10" height="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="01" placeholders="1" name="Variable" id="83uHd_Xzdh_Pzt49kiPY-15">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;dashed=1;fontSize=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+            <mxGeometry x="409" y="370" width="10" height="10" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
